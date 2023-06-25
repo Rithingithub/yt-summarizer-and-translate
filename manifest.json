@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Transcript Summarizer",
+    "version": "1.0",
+    "description": "A browser extension that summarizes YouTube video transcripts.",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "permissions": [
+      "https://www.youtube.com/*",
+      "activeTab",
+      "storage"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+      "popup.html",
+      "popup.js",
+      "popup.css"
+    ]
+  }
+  

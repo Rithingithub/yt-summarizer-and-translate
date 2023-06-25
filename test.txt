@@ -1,0 +1,22 @@
+# @app.route('/translate', methods=['POST'])
+# def translate():
+#     summary = request.json.get('summary')
+
+#     if not summary:
+#         return jsonify({'error': 'Invalid request. Missing summary to translate.'}), 400
+
+#     try:
+#         translated_summary = translator.translate(summary, dest='ml').text
+
+#         # Set the CORS headers explicitly
+#         response = jsonify({'translatedText': translated_summary})
+#         response.headers.add('Access-Control-Allow-Origin', '*')
+#         response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
+#         response.headers.add('Access-Control-Allow-Methods', 'POST')
+
+#         return response
+#     except Exception as e:
+#         return jsonify({'error': str(e)}), 500
+
+
+ജെയിംസ് കാമറൂൺ: നിങ്ങൾ ടൈറ്റാനിക്കിൽ മൃതദേഹങ്ങൾ കണ്ടെത്തുകയില്ല. ടാനിക          ക് ആസിഡ് ഉപയോഗിച്ച് ചികിത്സിച്ച ഷൂസ് ആ ആഴത്തിൽ വളരെ വേഗത്തിൽ പരിഹരിക്കപ          പ്പെടും. ഒരു ജോഡി സ്ത്രീകളുടെ ഷൂകൾ ആളുകളുടെ അടിത്തട്ടിൽ എത്തി, മനുഷ്യൻ               പറയുന്നു . അത് അപ്രത്യക്ഷമാകാൻ ഒരു അസ്ഥികൂടം വർഷങ്ങളെടുക്കും.
