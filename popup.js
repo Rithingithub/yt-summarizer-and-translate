@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
           var response = JSON.parse(xhr.responseText);
           if (response.translatedText) {
             translatedText.textContent = response.translatedText;
+            translatedText.style.display = 'block';
             status.textContent = 'Translation complete.';
           } else {
             translatedText.textContent = 'Failed to translate the summary.';

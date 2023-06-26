@@ -56,14 +56,11 @@ def translate():
     try:
         translated_summary = translator.translate(summary)
 
-        print(translated_summary)
         # Set the CORS headers explicitly
         response = jsonify({'translatedText': translated_summary})
         response.headers.add('Access-Control-Allow-Origin', '*')
         response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
         response.headers.add('Access-Control-Allow-Methods', 'POST')
-
-        print(response)
 
         return response
     except Exception as e:
